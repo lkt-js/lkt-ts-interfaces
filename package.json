@@ -1,9 +1,17 @@
 {
   "name": "lkt-ts-interfaces",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LKT TS Interfaces",
   "main": "src/index.js",
   "module": "src/index.js",
+  "keywords": [
+    "lkt",
+    "lkt-web-tech",
+    "ts",
+    "typescript",
+    "js",
+    "javascript"
+  ],
   "files": [
     "dist/*"
   ],
