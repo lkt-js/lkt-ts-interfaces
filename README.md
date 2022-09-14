@@ -4,7 +4,7 @@ In this package are located the interfaces used by lkt-web-tech project.
 
 ## LktObject
 
-This interface polyfills de traditional Javascript object to Typescript.
+This interface polyfills the traditional Javascript object to Typescript.
 
 ### Usage
 
