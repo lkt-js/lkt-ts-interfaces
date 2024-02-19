@@ -1,1 +1,3 @@
-export type { LktObject } from "./interfaces/LktObject.ts";
+export interface LktObject {
+    [key: string]: any;
+}
