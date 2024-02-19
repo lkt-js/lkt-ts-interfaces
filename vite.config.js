@@ -14,7 +14,8 @@ export default {
     build: {
         lib: {
             entry: `${ src }/index.ts`,
-            name: 'LktTsInterfaces'
+            name: 'LktTsInterfaces',
+            formats: ['es']
         },
         outDir,
         minify: true,

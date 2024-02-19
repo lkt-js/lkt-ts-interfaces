@@ -1,6 +1,6 @@
 {
   "name": "lkt-ts-interfaces",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "LKT TS Interfaces",
   "keywords": [
     "lkt",
@@ -11,19 +11,19 @@
     "javascript"
   ],
   "type": "module",
-  "module": "./dist/lkt-ts-interfaces.js",
+  "module": "./dist/index.js",
   "exports": {
     ".": {
-      "import": "./dist/lkt-ts-interfaces.js"
+      "import": "./dist/index.js"
     },
     "./styles": "./build/style.css"
   },
-  "types": "./dist/lkt-ts-interfaces.d.ts",
+  "types": "./dist/index.d.ts",
   "files": ["dist/*"],
   "license": "MIT",
   "sideEffects": false,
   "scripts": {
-    "build": "vite build && tsc --project tsconfig.json"
+    "build": "tsc --project tsconfig.json"
   },
   "author": "Antonio Ibáñez",
   "devDependencies": {
