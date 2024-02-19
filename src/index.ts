@@ -1,1 +1,1 @@
-export type {LktObject} from "./interfaces/LktObject";
+export type {LktObject} from "./interfaces/LktObject.ts";

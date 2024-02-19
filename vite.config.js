@@ -2,6 +2,7 @@ import vue from '@vitejs/plugin-vue';
 import { resolve } from 'path';
 
 const src = resolve(__dirname, 'src');
+const outDir = resolve(__dirname, 'build');
 const test = resolve(__dirname, 'test');
 const snapshots = resolve(__dirname, 'snapshots');
 
@@ -13,9 +14,9 @@ export default {
     build: {
         lib: {
             entry: `${ src }/index.ts`,
-            name: 'LktVueTools',
-            fileName: (format) => `lkt-ts-interfaces.${ format }.js`
+            name: 'LktTsInterfaces'
         },
+        outDir,
         minify: true,
         rollupOptions: {
             external: [ 'vue' ],
